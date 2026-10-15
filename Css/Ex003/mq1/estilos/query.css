@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media print {
+    * {
+        font-family: monospace;
+        font-size: 1.05em;
+        line-height: 1.5em;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    menu {
+        display: none;
+    }
+
+
+
+    article::after {
+        content: 'Feito por Fellipekkkk sla';
+    }
+}
