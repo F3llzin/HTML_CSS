@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+* {
+    font-family: sans-serif;
+    margin: 0px;
+    margin: 0px;
+}
+
+h1 {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.300);
+    color: white;
+    padding: 10px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #233eff;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
